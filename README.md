@@ -15,6 +15,9 @@
 3. maxUrange, map_update_interval 등의 파라미터 튜닝 필요
 4. odometry, tf 기반의 맵 생성 후 저장(white - collision free, black - inaccessible area, gray - unknown area)
 
+### Object Detection
+터틀봇 내부에 있는 LiDAR는 SLAM 및 Mapping에 특화되어, 구현 가능성 및 완성도를 고려하였을때 제외하는 것으로 판단
+
 ##### RECORD
 
 24.04.05
