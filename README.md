@@ -26,3 +26,9 @@
 주제 수정 및 터틀봇 세팅 완료
 24.04.18
 주제 수정 및 중간 발표 자료 제작
+
+24.04.29 ~ 24.05.05
+turtlebot3 setting
+-turtlebot3 관련 ROS 패키지 및 Turtlebot3 패키지 다운, Network Configuration 진행함.
+-turtlebot3 구동을 위한 OpenCR Setup 진행
+-Bring up 및 teleop 실행
