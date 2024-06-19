@@ -32,3 +32,17 @@ turtlebot3 setting
 -turtlebot3 관련 ROS 패키지 및 Turtlebot3 패키지 다운, Network Configuration 진행함.
 -turtlebot3 구동을 위한 OpenCR Setup 진행
 -Bring up 및 teleop 실행
+
+
+<실행 순서>
+- 마스터 PC -
+roscore
+
+- 터틀 봇 - 
+roslaunch turtlebot3_bringup turtlebot3_robot3_robot.launch
+
+- 마스터 PC -
+roslaunch turtlebot3_navigation turtlebot3_navigation map:=~
+
+- 터틀 봇 -
+roslaunch usb_cam usb_cam-test.launch
